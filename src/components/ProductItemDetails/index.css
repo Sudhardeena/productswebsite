@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.product-item-Details-container {
+  min-height: 100vh;
+  font-family: roboto;
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+}
+.product-item-details {
+  display: flex;
+  
+}
+span {
+  font-weight: bold;
+}
+.product-item-rating {
+  margin-right: 10px;
+}
+.product-item-image {
+  width: 50%;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.product-item-info {
+  display: flex;
+  flex-direction: column;
+}
+.product-item-price {
+  font-weight: bold;
+}
+.rating-and-total-reviews {
+  display: flex;
+  align-items: center;
+}
+.product-item-rating {
+  display: flex;
+  background-color: #3b82f6;
+  color: #ffffff;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.star-img {
+  width: 20px;
+  margin-left: 5px;
+}
+.hr-rule {
+  color: gray;
+  background-color: gray;
+  height: 5;
+  width: 100%;
+}
+.quantity-change-btn {
+  border: none;
+  background-color: transparent;
+}
+.qunatity-text {
+  margin: 0 25px;
+}
+.add-cart-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+.error-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.error-image {
+  width: 50%;
+}
+.product-not-found-heading {
+}
+.continue-shoppin-btn {
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
